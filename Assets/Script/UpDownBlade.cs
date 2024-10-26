@@ -48,9 +48,9 @@ public class UpDownBlade : MonoBehaviour
                     yield return null;
                 }
                 moveUp = true;
-                
-                float delayDuration = Random.Range(1.0f, 10.0f);
-                yield return new WaitForSeconds(delayDuration);
+
+                //float delayDuration = Random.Range(1.0f, 10.0f);
+                //yield return new WaitForSeconds(delayDuration);
             }
         }
     }
@@ -68,9 +68,9 @@ public class UpDownBlade : MonoBehaviour
                     yield return null;
                 }
                 moveUp2 = false;
-                
-                float delayDuration = Random.Range(1.0f, 10.0f);
-                yield return new WaitForSeconds(delayDuration);
+
+                //float delayDuration = Random.Range(1.0f, 10.0f);
+                //yield return new WaitForSeconds(delayDuration);
             }
             else
             {
