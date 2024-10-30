@@ -5,7 +5,7 @@ public class MenuController : MonoBehaviour
 {
     public void StartGame()
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
     public void ExitGame()
@@ -20,5 +20,14 @@ public class MenuController : MonoBehaviour
     public void Home()
     {
         SceneManager.LoadScene(0);
+    }
+
+    public void Level1()
+    {
+        SceneManager.LoadScene(3);
+    }
+    public void Level2()
+    {
+        SceneManager.LoadScene(4);
     }
 }
